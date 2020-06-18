@@ -13,8 +13,8 @@ void loop()
   for(i=0;i-8;i++)
   {
    digitalWrite(i, HIGH);
-   delay(100); // Wait for 1000 millisecond(s)
+   delay(100); // Wait for 100 millisecond(s)
    digitalWrite(i, LOW);
-   delay(100); // Wait for 1000 millisecond(s)
+   delay(100); // Wait for 100 millisecond(s)
   }
 }
