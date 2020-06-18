@@ -2,7 +2,7 @@
 int i=0;
 void setup()
 {
-  for(i=0;i-8;i++)
+  for(i=0;i<8;i++)
   {
     pinMode(i, OUTPUT);
   }
@@ -10,7 +10,7 @@ void setup()
 
 void loop()
 {
-  for(i=0;i-8;i++)
+  for(i=0;i<8;i++)
   {
    digitalWrite(i, HIGH);
    delay(100); // Wait for 100 millisecond(s)
