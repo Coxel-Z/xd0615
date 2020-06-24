@@ -12,9 +12,9 @@ void setup()
 void loop()
 {
   
-  if (digitalRead(A0) == HIGH)//如果按下按键1，相连接的A0的线与正极相连，A0就会变成高电平，下两个同理    
+  if (digitalRead(A0) == HIGH)//如果按下按键1，A0就会变成高电平，以电平变化作为按键信号的依据，下两个同理    
   {
-    tone(8, 440, 100); // 向喇叭传入音调的数据，喇叭发出声音，下同play tone  57 (A4频率= 440 Hz)
+    tone(8, 440, 100); // 通过8引脚向喇叭传入音调的数据，喇叭发出声音，下同 play tone  57 (A4频率= 440 Hz)
   }
   if (digitalRead(A1) == HIGH)//如果按下按键2
   {
